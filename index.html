@@ -8,15 +8,16 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.6.5/flowbite.min.css"
       rel="stylesheet"
     />
-
+    </style>
+    
     <title>M</title>
   </head>
-  <body>
 
+  <body>
     <!-- navigation bar -->
 
     <nav
-      class="bg-white dark:bg-gray-900 fixed w-full z-20 top-0 left-0 border-b border-gray-200 dark:border-gray-600"
+      class="bg-dark dark:bg-gray-900 fixed w-full z-20 top-0 left-0 border-b border-gray-200 dark:border-gray-600"
     >
       <div
         class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4"
@@ -36,27 +37,27 @@
             View Projects
           </button>
           <button
-            data-collapse-toggle="navbar-sticky"
-            type="button"
-            class="inline-flex items-center p-2 text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
-            aria-controls="navbar-sticky"
-            aria-expanded="false"
-          >
-            <span class="sr-only">Open main menu</span>
-            <svg
-              class="w-6 h-6"
-              aria-hidden="true"
-              fill="currentColor"
-              viewBox="0 0 20 20"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                fill-rule="evenodd"
-                d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z"
-                clip-rule="evenodd"
-              ></path>
-            </svg>
-          </button>
+      data-collapse-toggle="navbar-sticky"
+      type="button"
+      class="options-button inline-flex items-center p-2 text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600 "
+      aria-controls="navbar-sticky"
+      aria-expanded="false"
+    >
+      <span class="sr-only">Open main menu</span>
+      <svg
+        class="w-6 h-6"
+        aria-hidden="true"
+        fill="currentColor"
+        viewBox="0 0 20 20"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          fill-rule="evenodd"
+          d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z"
+          clip-rule="evenodd"
+        ></path>
+      </svg>
+    </button>
         </div>
         <div
           class="items-center justify-between hidden w-full md:flex md:w-auto md:order-1"
@@ -67,28 +68,32 @@
           >
             <li>
               <a
-                href="#home" id="home-link"
+                href="#home"
+                id="home-link"
                 class="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
                 >Home</a
               >
             </li>
             <li>
               <a
-                href="#about" id="about-link"
+                href="#about"
+                id="about-link"
                 class="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
                 >About</a
               >
             </li>
             <li>
               <a
-                href="#services" id="services-link"
+                href="#services"
+                id="services-link"
                 class="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
                 >Services</a
               >
             </li>
             <li>
               <a
-                href="#contact" id="contact-link"
+                href="#contact"
+                id="contact-link"
                 class="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
                 >Contact</a
               >
@@ -106,7 +111,8 @@
       class="bg-center bg-no-repeat bg-[url('https://flowbite.s3.amazonaws.com/docs/jumbotron/conference.jpg')] bg-gray-500 bg-blend-multiply"
       id="home"
     >
-      <div class="px-4 mx-auto max-w-screen-xl text-center py-24 lg:py-56">
+      <!-- <div class="px-4 mx-auto max-w-screen-xl text-center py-24 lg:py-56"> -->
+      <div class="px-4 mx-auto max-w-screen-xl text-center py-60 lg:py-56">
         <h1
           class="mb-4 text-4xl font-extrabold tracking-tight leading-none text-white md:text-5xl lg:text-6xl"
         >
@@ -122,7 +128,8 @@
           class="flex flex-col space-y-4 sm:flex-row sm:justify-center sm:space-y-0 sm:space-x-4"
         >
           <a
-            href="#about" id="getstarted-link"
+            href="#about"
+            id="getstarted-link"
             class="inline-flex justify-center items-center py-3 px-5 text-base font-medium text-center text-white rounded-lg bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 dark:focus:ring-blue-900"
           >
             Get started
@@ -141,7 +148,8 @@
             </svg>
           </a>
           <a
-            href="#services" id="learnmore-link"
+            href="#services"
+            id="learnmore-link"
             class="inline-flex justify-center hover:text-gray-900 items-center py-3 px-5 text-base font-medium text-center text-white rounded-lg border border-white hover:bg-gray-100 focus:ring-4 focus:ring-gray-400"
           >
             Learn more
@@ -182,9 +190,11 @@
             <span class="sr-only"></span>
           </span>
           <span
-            >Want some development works to be done? Then, you are at righ place!
+            >Want some development works to be done? Then, you are at righ
+            place!
             <a
-              href="#contact" id="banner-link"
+              href="#contact"
+              id="banner-link"
               class="flex items-center ml-0 text-sm font-medium text-blue-600 md:ml-1 md:inline-flex dark:text-blue-500 hover:underline"
               >Contact Us..
               <svg
@@ -254,56 +264,60 @@
                 Here, we are passionate about shaping the world around us
                 through innovative civil engineering solutions. With years of
                 experience and a dedicated team of experts, we strive to deliver
-                exceptional results that exceed our clients' expectations.
-                Our company is driven by a strong commitment to excellence,
+                exceptional results that exceed our clients' expectations. Our
+                company is driven by a strong commitment to excellence,
                 integrity, and sustainability. We approach every project with
                 meticulous attention to detail and a focus on creating
                 long-lasting, functional, and environmentally responsible
                 infrastructure.
               </p>
-              <button class="bg-blue-500 text-white px-4 py-2 rounded-lg transition duration-500 ease-in-out hover:bg-blue-600" id="read-more-btn">
+              <button
+                class="bg-blue-500 text-white px-4 py-2 rounded-lg transition duration-500 ease-in-out hover:bg-blue-600"
+                id="read-more-btn"
+                onclick="toggleInfo()"
+              >
                 Read More
               </button>
-              <div class="hidden mt-4 text-gray-700" id="hidden-content">
-                        <p class="mb-8 text-lg font-normal text-gray-100">
-                          Maa Jalapa, as a leading civil engineering firm, specializes in a wide
-                          range of services, including site development, structural
-                          engineering, transportation planning, environmental assessments,
-                          and much more. Our multidisciplinary approach allows us to
-                          tackle complex challenges and deliver comprehensive solutions
-                          tailored to our clients' unique needs.
-                        </p>
-                        <p class="mb-8 text-lg font-normal text-gray-100">
-                          We take pride in our collaborative approach, working closely
-                          with our clients, stakeholders, and partners to ensure
-                          successful project outcomes. Our team combines technical
-                          expertise with a deep understanding of local regulations and
-                          industry best practices to navigate projects seamlessly and
-                          deliver results on time and within budget.
-                        </p>
-                        <p class="mb-8 text-lg font-normal text-gray-100">
-                          As a socially responsible company, we are committed to giving
-                          back to the communities we serve. We actively engage in
-                          sustainable practices, prioritize safety in all our operations,
-                          and embrace diversity and inclusion to foster a positive and
-                          enriching work environment.
-                        </p>
-                        <p class="mb-8 text-lg font-normal text-gray-100">
-                          We look forward to working with you and being a part of your
-                          next civil engineering endeavor. Contact us today to learn more
-                          about how we can assist you in turning your vision into reality.
-                        </p>
-                        <a
-                          href="#contact" id="aboutcontact-link"
-                          class="bg-white text-gray-900 px-4 py-2 rounded-lg inline-block font-bold"
-                          >Contact Us</a
-                        >
-                      </div>
-                    </div>
-                  </div>
+              <div id="content">
+                <div class="hidden mt-4 text-gray-700" id="hidden-content">
+                  <p class="mb-8 text-lg font-normal text-gray-100">
+                    Maa Jalapa, as a leading civil engineering firm, specializes
+                    in a wide range of services, including site development,
+                    structural engineering, transportation planning,
+                    environmental assessments, and much more. Our
+                    multidisciplinary approach allows us to tackle complex
+                    challenges and deliver comprehensive solutions tailored to
+                    our clients' unique needs.
+                  </p>
+                  <p class="mb-8 text-lg font-normal text-gray-100">
+                    We take pride in our collaborative approach, working closely
+                    with our clients, stakeholders, and partners to ensure
+                    successful project outcomes. Our team combines technical
+                    expertise with a deep understanding of local regulations and
+                    industry best practices to navigate projects seamlessly and
+                    deliver results on time and within budget.
+                  </p>
+                  <p class="mb-8 text-lg font-normal text-gray-100">
+                    As a socially responsible company, we are committed to
+                    giving back to the communities we serve. We actively engage
+                    in sustainable practices, prioritize safety in all our
+                    operations, and embrace diversity and inclusion to foster a
+                    positive and enriching work environment.
+                  </p>
+                  <p class="mb-8 text-lg font-normal text-gray-100">
+                    We look forward to working with you and being a part of your
+                    next civil engineering endeavor. Contact us today to learn
+                    more about how we can assist you in turning your vision into
+                    reality.
+                  </p>
+                  <a
+                    href="#contact"
+                    id="aboutcontact-link"
+                    class="bg-white text-gray-900 px-4 py-2 rounded-lg inline-block font-bold"
+                    >Contact Us</a
+                  >
                 </div>
               </div>
-              
             </div>
           </div>
         </div>
@@ -317,49 +331,139 @@
     <section class="text-gray-400 body-font bg-gray-900" id="services">
       <div class="container px-5 py-24 mx-auto">
         <div class="flex flex-col text-center w-full mb-20">
-          <h2 class="text-xs text-indigo-400 tracking-widest font-medium title-font mb-1">MAA JALAPA</h2>
-          <h1 class="sm:text-3xl text-2xl font-medium title-font mb-4 text-white">Services</h1>
-          <p class="lg:w-2/3 mx-auto leading-relaxed text-base">Our company typically provides a wide range of services related to the design, construction, and maintenance of infrastructure projects. Here is a list of common services offered by our company:</p>
+          <h2
+            class="text-xs text-indigo-400 tracking-widest font-medium title-font mb-1"
+          >
+            MAA JALAPA
+          </h2>
+          <h1
+            class="sm:text-3xl text-2xl font-medium title-font mb-4 text-white"
+          >
+            Services
+          </h1>
+          <p class="lg:w-2/3 mx-auto leading-relaxed text-base">
+            Our company typically provides a wide range of services related to
+            the design, construction, and maintenance of infrastructure
+            projects. Here is a list of common services offered by our company:
+          </p>
         </div>
         <div class="flex flex-wrap">
-          <div class="xl:w-1/4 lg:w-1/2 md:w-full px-8 py-6 border-l-2 border-gray-800">
-            <h2 class="text-lg sm:text-xl text-white font-medium title-font mb-2">Site Development</h2>
-            <p class="leading-relaxed text-base mb-4">Preparation and development of land for construction, including grading, drainage, and utility systems.</p>
-            <a class="text-indigo-400 inline-flex items-center">Learn More
-              <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24">
+          <div
+            class="xl:w-1/4 lg:w-1/2 md:w-full px-8 py-6 border-l-2 border-gray-800" id="knowmore-link"
+          >
+            <h2
+              class="text-lg sm:text-xl text-white font-medium title-font mb-2"
+            >
+              Site Development
+            </h2>
+            <p class="leading-relaxed text-base mb-4">
+              Preparation and development of land for construction, including
+              grading, drainage, and utility systems.
+            </p>
+            <a class="text-indigo-400 inline-flex items-center" href="#contact"
+              >Know More
+              <svg
+                fill="none"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                class="w-4 h-4 ml-2"
+                viewBox="0 0 24 24"
+              >
                 <path d="M5 12h14M12 5l7 7-7 7"></path>
               </svg>
             </a>
           </div>
-          <div class="xl:w-1/4 lg:w-1/2 md:w-full px-8 py-6 border-l-2 border-gray-800">
-            <h2 class="text-lg sm:text-xl text-white font-medium title-font mb-2">Structural Engineering</h2>
-            <p class="leading-relaxed text-base mb-4">Design and analysis of structures such as buildings, bridges, dams, and retaining walls to ensure their safety and stability.</p>
-            <a class="text-indigo-400 inline-flex items-center">Learn More
-              <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24">
+          <div
+            class="xl:w-1/4 lg:w-1/2 md:w-full px-8 py-6 border-l-2 border-gray-800"
+          >
+            <h2
+              class="text-lg sm:text-xl text-white font-medium title-font mb-2"
+            >
+              Structural Engineering
+            </h2>
+            <p class="leading-relaxed text-base mb-4">
+              Design and analysis of structures such as buildings, bridges,
+              dams, and retaining walls to ensure their safety and stability.
+            </p>
+            <a class="text-indigo-400 inline-flex items-center" href="#contact"
+              >Know More
+              <svg
+                fill="none"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                class="w-4 h-4 ml-2"
+                viewBox="0 0 24 24"
+              >
                 <path d="M5 12h14M12 5l7 7-7 7"></path>
               </svg>
             </a>
           </div>
-          <div class="xl:w-1/4 lg:w-1/2 md:w-full px-8 py-6 border-l-2 border-gray-800">
-            <h2 class="text-lg sm:text-xl text-white font-medium title-font mb-2">Construction Management</h2>
-            <p class="leading-relaxed text-base mb-4">Project management and supervision during the construction phase, including cost estimation, scheduling, quality control, and contract administration.</p>
-            <a class="text-indigo-400 inline-flex items-center">Learn More
-              <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24">
+          <div
+            class="xl:w-1/4 lg:w-1/2 md:w-full px-8 py-6 border-l-2 border-gray-800"
+          >
+            <h2
+              class="text-lg sm:text-xl text-white font-medium title-font mb-2"
+            >
+              Construction Management
+            </h2>
+            <p class="leading-relaxed text-base mb-4">
+              Project management and supervision during the construction phase,
+              including cost estimation, scheduling, quality control, and
+              contract administration.
+            </p>
+            <a class="text-indigo-400 inline-flex items-center" href="#contact"
+              >Know More
+              <svg
+                fill="none"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                class="w-4 h-4 ml-2"
+                viewBox="0 0 24 24"
+              >
                 <path d="M5 12h14M12 5l7 7-7 7"></path>
               </svg>
             </a>
           </div>
-          <div class="xl:w-1/4 lg:w-1/2 md:w-full px-8 py-6 border-l-2 border-gray-800">
-            <h2 class="text-lg sm:text-xl text-white font-medium title-font mb-2">Transportation Planning and Design</h2>
-            <p class="leading-relaxed text-base mb-4">Planning, design, and optimization of transportation systems, including roads, highways, railways, airports, and transit systems.</p>
-            <a class="text-indigo-400 inline-flex items-center">Learn More
-              <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24">
+          <div
+            class="xl:w-1/4 lg:w-1/2 md:w-full px-8 py-6 border-l-2 border-gray-800"
+          >
+            <h2
+              class="text-lg sm:text-xl text-white font-medium title-font mb-2"
+            >
+              Transportation Planning and Design
+            </h2>
+            <p class="leading-relaxed text-base mb-4">
+              Planning, design, and optimization of transportation systems,
+              including roads, highways, railways, airports, and transit
+              systems.
+            </p>
+            <a class="text-indigo-400 inline-flex items-center" href="#contact"
+              >Know More
+              <svg
+                fill="none"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                class="w-4 h-4 ml-2"
+                viewBox="0 0 24 24"
+              >
                 <path d="M5 12h14M12 5l7 7-7 7"></path>
               </svg>
             </a>
           </div>
         </div>
-        <button class="flex mx-auto mt-16 text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600 rounded text-lg">More</button>
+        <button
+          class="flex mx-auto mt-16 text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600 rounded text-lg"
+        >
+          More
+        </button>
       </div>
     </section>
 
@@ -393,9 +497,7 @@
               >
                 ADDRESS
               </h2>
-              <p class="mt-1">
-                Gusingal, Lalitpur, Kathmandu, Nepal
-              </p>
+              <p class="mt-1">Gusingal, Lalitpur, Kathmandu, Nepal</p>
             </div>
             <div class="lg:w-1/2 px-6 mt-4 lg:mt-0">
               <h2
@@ -422,7 +524,10 @@
             Contact Us
           </h2>
           <p class="leading-relaxed mb-5">
-            We would love to hear from you! Get in touch with us to discuss your civil engineering projects, collaborations, or any inquiries you may have. Our team of experienced professionals is ready to assist you with comprehensive solutions tailored to your specific needs.
+            We would love to hear from you! Get in touch with us to discuss your
+            civil engineering projects, collaborations, or any inquiries you may
+            have. Our team of experienced professionals is ready to assist you
+            with comprehensive solutions tailored to your specific needs.
           </p>
           <div class="relative mb-4">
             <label for="name" class="leading-7 text-sm text-gray-400"
@@ -469,23 +574,23 @@
       </div>
     </section>
 
-    <!-- Contact -->
-<hr>
+    <!-- end of Contact -->
+    <hr />
     <!-- footer -->
 
     <footer class="bg-white dark:bg-gray-900">
       <div class="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
         <div class="md:flex md:justify-between">
           <div class="mb-6 md:mb-0">
-              <img
-                src="https://flowbite.com/docs/images/logo.svg"
-                class="h-8 mr-3"
-                alt="FlowBite Logo"
-              />
-              <span
-                class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white"
-                >Maa Jalapa</span
-              >
+            <img
+              src="https://flowbite.com/docs/images/logo.svg"
+              class="h-8 mr-3"
+              alt="FlowBite Logo"
+            />
+            <span
+              class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white"
+              >Maa Jalapa</span
+            >
           </div>
           <div class="grid grid-cols-2 gap-20 sm:gap-15 sm:grid-cols-2">
             <div>
@@ -495,30 +600,10 @@
                 Working Hours
               </h2>
               <ul class="text-gray-600 dark:text-gray-400 font-medium">
-                <li class="mb-4">
-                  Sun - Fri: 8 a.m. - 7 p.m.
-                </li>
-                <li>
-                  Saturday: 10 a.m. - 5 p.m.
-                </li>
+                <li class="mb-4">Sun - Fri: 8 a.m. - 7 p.m.</li>
+                <li>Saturday: 10 a.m. - 5 p.m.</li>
               </ul>
             </div>
-
-            <!-- <div>
-              <h2
-                class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white"
-              >
-                Legal
-              </h2>
-              <ul class="text-gray-600 dark:text-gray-400 font-medium">
-                <li class="mb-4">
-                  <a href="#" class="hover:underline">Privacy Policy</a>
-                </li>
-                <li>
-                  <a href="#" class="hover:underline">Terms &amp; Conditions</a>
-                </li>
-              </ul>
-            </div> -->
 
             <div>
               <h2
@@ -551,7 +636,8 @@
         <div class="sm:flex sm:items-center sm:justify-between">
           <span class="text-sm text-gray-500 sm:text-center dark:text-gray-400"
             >© 2023
-            <a href="https://flowbite.com/" class="hover:underline">Maa Jalapa Constructions PVT. LTD.™</a
+            <a href="https://flowbite.com/" class="hover:underline"
+              >Maa Jalapa Constructions PVT. LTD.™</a
             >. All Rights Reserved.
           </span>
           <div class="flex mt-4 space-x-6 sm:justify-center sm:mt-0">
@@ -650,116 +736,11 @@
 
     <!-- end of footer -->
 
-    <!-- script -->
+    <!-- file linkage -->
 
     <script src="https://cdn.tailwindcss.com"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.6.5/flowbite.min.js"></script>
-
-    <!-- about us hide/unhide -->
-    <script>
-     
-        const readMoreBtn = document.getElementById('read-more-btn');
-  const hiddenContent = document.getElementById('hidden-content');
-  
-  readMoreBtn.addEventListener('click', () => {
-    hiddenContent.classList.toggle('hidden');
-    
-    if (hiddenContent.classList.contains('hidden')) {
-      readMoreBtn.innerText = 'Read More';
-    } else {
-      readMoreBtn.innerText = 'Read Less';
-    }
-  });
-    </script>
-    <!-- about us hide/unhide -->
-
-    <!-- code for smooth scrolling  -->
-    <script>
-      document.addEventListener('DOMContentLoaded', function() {
-        const logoLink = document.getElementById('logo-link');
-        const homeLink = document.getElementById('home-link');
-        const aboutLink = document.getElementById('about-link');
-        const servicesLink = document.getElementById('services-link');
-        const contactLink = document.getElementById('contact-link');
-        const getstartedLink = document.getElementById('getstarted-link');
-        const learnmoreLink = document.getElementById('learnmore-link');
-        const bannerLink = document.getElementById('banner-link');
-        const aboutcontactLink = document.getElementById('aboutcontact-link');
-    
-        const homeSection = document.getElementById('home');
-        const aboutSection = document.getElementById('about');
-        const servicesSection = document.getElementById('services');
-        const contactSection = document.getElementById('contact');
-    
-        function scrollToSection(section) {
-          const offsetTop = section.offsetTop;
-    
-          window.scrollTo({
-            top: offsetTop,
-            behavior: 'smooth'
-          });
-        }
-    
-        logoLink.addEventListener('click', function(event) {
-          event.preventDefault();
-          scrollToSection(homeSection);
-        });
-
-        homeLink.addEventListener('click', function(event) {
-          event.preventDefault();
-          scrollToSection(homeSection);
-        });
-    
-        aboutLink.addEventListener('click', function(event) {
-          event.preventDefault();
-          scrollToSection(aboutSection);
-        });
-    
-        servicesLink.addEventListener('click', function(event) {
-          event.preventDefault();
-          scrollToSection(servicesSection);
-        });
-    
-        contactLink.addEventListener('click', function(event) {
-          event.preventDefault();
-          scrollToSection(contactSection);
-        });
-
-        getstartedLink.addEventListener('click', function(event) {
-          event.preventDefault();
-          scrollToSection(aboutSection);
-        });
-
-        learnmoreLink.addEventListener('click', function(event) {
-          event.preventDefault();
-          scrollToSection(servicesSection);
-        });
-
-        bannerLink.addEventListener('click', function(event) {
-          event.preventDefault();
-          scrollToSection(contactSection);
-        });
-
-        aboutcontactLink.addEventListener('click', function(event) {
-          event.preventDefault();
-          scrollToSection(contactSection);
-        });
-      });
-    </script>
-    <!-- end of code for smooth scrolling  -->
-
-    <script>
-      const sendButton = document.getElementById('send-button');
-    
-      sendButton.addEventListener('click', () => {
-        sendButton.innerText = 'Sent!';
-        sendButton.disabled = true;
-      });
-    </script>
-    
-
-    <!-- end of script for send button in contact  -->
-
-    <!-- end of script -->
+    <script src="script.js"></script>
+    <!-- end of file linkage -->
   </body>
 </html>
